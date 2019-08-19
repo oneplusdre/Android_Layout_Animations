@@ -21,6 +21,7 @@ class ItemDetail : AppCompatActivity() {
         window.enterTransition = Slide().setDuration(1988)
         window.exitTransition = Slide().setDuration(1000)
 
+
         setContentView(R.layout.activity_item_detail)
 
         val item = intent.getSerializableExtra(ITEM_KEY) as ShoppingItem
